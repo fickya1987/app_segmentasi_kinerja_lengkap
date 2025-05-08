@@ -97,5 +97,8 @@ if uploaded_file:
 
     for kat, rekom in rekomendasi.items():
         jumlah = kategori_count.get(kat, 0)
-        st.markdown(f"**{kat}** – {jumlah} pekerja  
-        → _{rekom}_")
+        st.markdown(f"""
+**{kat}** – {jumlah} pekerja  
+→ _{rekom}_
+""")
+
